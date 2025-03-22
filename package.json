@@ -9,8 +9,11 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "fetch-readmes": "node scripts/fetch-readmes.js",
+    "build:with-readmes": "npm run fetch-readmes && astro build"
   },
+  
   "keywords": [
     "astro",
     "astro-component",
