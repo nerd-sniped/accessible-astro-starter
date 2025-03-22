@@ -5,8 +5,8 @@ const projects = defineCollection({
   format: 'mdx', // ✅ Enables .mdx support
   schema: z.object({
     title: z.string(),
-    repo: z.string().url(),
-    tags: z.array(z.string()),
+    repo: z.string().url().optional(),
+    tags: z.array(z.string()).optional(),
     author: z.string().optional(),
     description: z.string().optional(),
   }),

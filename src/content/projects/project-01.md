@@ -1,7 +1,9 @@
 ---
 title: Voice-First Smart Home Assistant
+
 author: John Doe
 description: A comprehensive smart home solution designed specifically for users with visual impairments, featuring voice-first interactions and haptic feedback
+
 ---
 
 ## Project Overview
